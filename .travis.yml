@@ -37,8 +37,8 @@ deploy:
     keep-history: true
     local-dir: _book
     on:
-      branch: master
-    target-branch: gh-pages
+      branch: blog
+    target-branch: master
   - provider: releases
     api_key:
       secure:
@@ -46,9 +46,9 @@ deploy:
     file: blog.tar.gz
     skip_cleanup: true
     on:
-      branch: master
+      branch: blog
 
 # whitelist
 branches:
   only:
-    - master
+    - blog
