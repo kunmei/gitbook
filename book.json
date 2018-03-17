@@ -2,5 +2,6 @@
     "title": "MeiKun",
     "author": "damon302",
     "description": "Blog",
-    "language": "zh"
+    "language": "zh",
+    "plugins": ["katex"]
 }
